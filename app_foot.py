@@ -1,29 +1,28 @@
 import streamlit as st
 import pandas as pd
 
-# Style Forebet - Configuration Large
-st.set_page_config(page_title="Master Predicts | Stats & Pronos", layout="wide", page_icon="⚽")
+# Configuration de la page
+st.set_page_config(page_title="Master Predicts | Stats", layout="wide", page_icon="⚽")
 
-st.title("🔢 Master Predicts : Intelligence Artificielle")
-st.write(f"Dernière mise à jour des données : {pd.Timestamp.now().strftime('%d/%m/%Y')}")
+st.title("🔢 Master Predicts : Analyses de Demain")
+st.write(f"Pronostics basés sur l'IA - Mise à jour : {pd.Timestamp.now().strftime('%d/%m/%Y')}")
 
-# --- CHARGEMENT DES DONNÉES ---
+# Chargement des données
 try:
-    # Lecture du fichier CSV que tu viens de créer
-    df = pd.read_csv("matchs.csv")
+    # On lit ton fichier match.csv
+    df = pd.read_csv("match.csv")
     
-    st.subheader("📅 Prédictions Mathématiques (Algorithme Forebet)")
-    
-    # Affichage du tableau interactif et stylisé
+    # Affichage du tableau stylisé
     st.dataframe(
         df, 
         column_config={
+            "Logo": st.column_config.ImageColumn(" ", width="small"),
             "Match": st.column_config.TextColumn("Match", width="medium"),
-            "1_pct": st.column_config.ProgressColumn("Victoire Dom. (%)", format="%d%%", min_value=0, max_value=100),
-            "X_pct": st.column_config.ProgressColumn("Nul (%)", format="%d%%", min_value=0, max_value=100),
-            "2_pct": st.column_config.ProgressColumn("Victoire Ext. (%)", format="%d%%", min_value=0, max_value=100),
+            "1_pct": st.column_config.ProgressColumn("Victoire Dom. (%)", format="%d%%", min_value=0, max_value=100, color="blue"),
+            "X_pct": st.column_config.ProgressColumn("Nul (%)", format="%d%%", min_value=0, max_value=100, color="gray"),
+            "2_pct": st.column_config.ProgressColumn("Victoire Ext. (%)", format="%d%%", min_value=0, max_value=100, color="red"),
             "Score_Prédit": st.column_config.TextColumn("Score Exact"),
-            "Météo": st.column_config.TextColumn("Météo"),
+            "Total_Buts": st.column_config.TextColumn("Total Buts"),
             "Confiance": st.column_config.TextColumn("Fiabilité")
         },
         hide_index=True,
@@ -31,28 +30,14 @@ try:
     )
 
 except Exception as e:
-    # Message si le fichier matchs.csv n'est pas encore trouvé ou mal écrit
-    st.warning("⚙️ Configuration en cours...")
-    st.info("Le tableau s'affichera dès que le fichier 'matchs.csv' sera détecté sur GitHub.")
+    st.error(f"Erreur de lecture du fichier : {e}")
+    st.info("Vérifiez que le fichier se nomme bien match.csv sur GitHub.")
 
-# --- SECTION ANALYSEUR MANUEL (En bas de page) ---
+# Section "Coupon du Jour"
 st.divider()
-st.subheader("🔍 Analyseur de Match Personnalisé")
-with st.expander("Vous ne trouvez pas un match ? Calculez-le ici"):
-    col1, col2 = st.columns(2)
-    with col1:
-        equipe_nom = st.text_input("Nom de l'équipe", "Équipe A")
-        force_att = st.slider("Puissance de l'Attaque", 0, 100, 70)
-    with col2:
-        equipe_ext = st.text_input("Adversaire", "Équipe B")
-        force_def = st.slider("Solidité de la Défense", 0, 100, 60)
-    
-    if st.button("Lancer l'Analyse"):
-        # Petit calcul mathématique rapide
-        proba = round((force_att / (force_def + 1)) * 50 + 20)
-        if proba > 100: proba = 95
-        st.success(f"L'IA prévoit **{proba}%** de chances de victoire pour **{equipe_nom}**.")
+st.subheader("🔥 Le Coupon Safe de demain")
+st.info("Selon l'IA : **Sporting CP** + **Fenerbahce** + **Barcelone**. Côte estimée : 2.10")
 
-# --- PIED DE PAGE ---
+# Pied de page
 st.sidebar.markdown("### À propos")
-st.sidebar.write("Application Développé par **Hemery Dallah MAGANGA YABRE**")
+st.sidebar.write("Développé par **HEMERY DALLAH MAGANGA YABRE**")
