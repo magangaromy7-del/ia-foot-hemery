@@ -1,66 +1,59 @@
 import streamlit as st
-import numpy as np
-from sklearn.linear_model import LinearRegression
+import random
 
-# --- CONFIGURATION DE LA PAGE ---
-st.set_page_config(page_title="IA Pronos Football", page_icon="⚽")
+# Configuration de la page
+st.set_page_config(page_title="Master Predicts Pro", page_icon="⚽")
 
-# --- STYLE PERSONNALISÉ ---
-st.markdown("""
-    <style>
-    .main {
-        background-color: #f0f2f6;
-    }
-    .stButton>button {
-        width: 100%;
-        background-color: #00ff00;
-        color: black;
-        font-weight: bold;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+st.title("⚽ Master Predicts : IA Analyse Expert")
+st.write("Analyse complète des probabilités pour le match.")
 
-st.title("⚽ Mon IA de Pronostics Football")
-st.write("Bienvenue Hemery ! Cette IA utilise la régression linéaire pour prédire les scores.")
+# --- SECTION : ENTRÉE DES DONNÉES ---
+st.subheader("📊 Entrez les forces en présence")
 
-# --- 1. LES DONNÉES D'ENTRAÎNEMENT ---
-# X = Tirs cadrés | y = Buts marqués
-X = np.array([[2], [4], [5], [7], [8], [10]]) 
-y = np.array([0, 1, 1, 2, 3, 4]) 
+col1, col2 = st.columns(2)
 
-# Entraînement du modèle
-model = LinearRegression()
-model.fit(X, y)
+with col1:
+    domicile = st.text_input("Équipe à Domicile", "Real Madrid")
+    force_dom = st.slider(f"Niveau d'attaque ({domicile})", 1, 100, 75)
+    defense_dom = st.slider(f"Niveau défense ({domicile})", 1, 100, 70)
 
-# --- 2. INTERFACE UTILISATEUR ---
+with col2:
+    exterieur = st.text_input("Équipe à l'Extérieur", "Barcelone")
+    force_ext = st.slider(f"Niveau d'attaque ({exterieur})", 1, 100, 72)
+    defense_ext = st.slider(f"Niveau défense ({exterieur})", 1, 100, 65)
+
+# --- CALCUL DE L'ANALYSE ---
+if st.button("🚀 GÉNÉRER L'ANALYSE COMPLÈTE"):
+    # Logique de calcul pour le score
+    buts_dom = round((force_dom / (defense_ext + 10)) * 2)
+    buts_ext = round((force_ext / (defense_dom + 10)) * 1.8)
+    
+    # Calcul des autres statistiques
+    total_buts = buts_dom + buts_ext
+    possession_dom = round(50 + (force_dom - force_ext) / 5)
+    tirs_cadres_dom = round(buts_dom * 2.5 + random.randint(1, 3))
+    tirs_cadres_ext = round(buts_ext * 2.5 + random.randint(1, 3))
+
+    st.divider()
+    
+    # AFFICHAGE DU PRONOSTIC
+    st.header("🏆 Pronostic Final")
+    st.subheader(f"Score Exact : {domicile} {buts_dom} - {buts_ext} {exterieur}")
+    
+    # AFFICHAGE DES DÉTAILS
+    col_a, col_b, col_c = st.columns(3)
+    
+    with col_a:
+        st.metric("Total Buts", f"+ {total_buts - 0.5}")
+    with col_b:
+        st.metric("Possession", f"{possession_dom}%", f"{100-possession_dom}%", delta_color="normal")
+    with col_c:
+        st.metric("Tirs Cadrés", f"{tirs_cadres_dom} - {tirs_cadres_ext}")
+
+    st.info(f"💡 **Conseil d'expert** : Basé sur l'analyse, le pronostic le plus sûr est : **{'+ 1,5 buts' if total_buts > 1 else 'Match fermé'}**.")
+
+st.sidebar.write("Développé par **Hemery Maganga**")
+st.sidebar.info("Utilisez les sliders pour simuler la forme actuelle des équipes.")
+        
 st.divider()
-st.subheader("Entrez les statistiques du match")
-
-# Curseur pour choisir le nombre de tirs
-tirs_input = st.slider("Nombre de tirs cadrés prévus pour l'équipe :", 0, 20, 5)
-
-# --- 3. CALCUL ET AFFICHAGE ---
-if st.button("Lancer le pronostic IA"):
-    # Faire la prédiction
-    prediction = model.predict([[tirs_input]])
-    
-    # On arrondit pour avoir un nombre de buts logique (pas de 1.5 but)
-    score_final = max(0, int(round(prediction[0])))
-    
-    st.balloons() # Petite animation de fête
-    
-    col1, col2 = st.columns(2)
-    with col1:
-        st.metric(label="Estimation précise", value=f"{prediction[0]:.2f} buts")
-    with col2:
-        st.metric(label="Pronostic Final", value=f"{score_final} but(s)")
-
-    if score_final >= 2:
-        st.success("🔥 ANALYSE : Équipe très offensive, favorable pour un 'Over 1.5' !")
-    elif score_final == 1:
-        st.info("🛡️ ANALYSE : Match serré, l'équipe est moyennement efficace.")
-    else:
-        st.warning("⚠️ ANALYSE : Faible efficacité prévue. Attention au 'Under'.")
-
-st.divider()
-st.caption("Application développée par Hemery - Étudiant IT")
+st.caption("Application développée par HEMERY DALLAH - Étudiant IT")
