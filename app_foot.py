@@ -38,7 +38,6 @@ st.divider()
 st.subheader("🔥 Le Coupon Safe de demain")
 st.info("Selon l'IA : **Sporting CP** + **Fenerbahce** + **Barcelone**. Côte estimée : 2.10")
 
-# Affichage du tableau verrouillé (ne bouge plus)
     st.dataframe(
         df, 
         column_config={
