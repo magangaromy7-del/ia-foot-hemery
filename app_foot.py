@@ -1,17 +1,22 @@
 import streamlit as st
 import pandas as pd
 
-# 1. Configuration de la page
-st.set_page_config(page_title="Master Predicts | Stats", layout="wide", page_icon="⚽")
+# 1. Configuration de la page (Design Pro)
+st.set_page_config(
+    page_title="Master Predicts | Dashboard",
+    layout="wide",
+    page_icon="⚽"
+)
 
-st.title("🔢 Master Predicts : Analyses de Demain")
-st.write(f"Pronostics basés sur l'IA - Mise à jour : {pd.Timestamp.now().strftime('%d/%m/%Y')}")
+# Style pour le titre
+st.title("🔢 Master Predicts : Analyses Automatiques")
+st.write(f"Mise à jour des analyses : {pd.Timestamp.now().strftime('%d/%m/%Y')}")
 
-# 2. Chargement des données
+# 2. Chargement des données générées par le robot
 try:
     df = pd.read_csv("match.csv")
     
-    # Affichage du tableau verrouillé (fixe)
+    # Affichage du tableau avec colonnes FIXES et LOGOS
     st.dataframe(
         df, 
         column_config={
@@ -27,13 +32,12 @@ try:
         hide_index=True,
         use_container_width=True
     )
-except Exception as e:
-    st.error(f"Erreur : {e}")
+except Exception:
+    st.info("🔄 Le robot Master Predicts est en train de préparer les matchs mondiaux. Revenez dans 2 minutes !")
 
 # 3. Bouton WhatsApp
 st.divider()
-st.subheader("📢 Partage les pronos avec tes amis")
-message_wa = "Salut ! Regarde les pronostics de demain sur Master Predicts : https://master-predicts.streamlit.app/"
+message_wa = "Salut ! Voici les pronos automatiques de Master Predicts : https://master-predicts.streamlit.app/"
 lien_wa = f"https://wa.me/?text={message_wa.replace(' ', '%20')}"
 
 st.markdown(f"""
@@ -43,12 +47,12 @@ st.markdown(f"""
         </button>
     </a>""", unsafe_allow_html=True)
 
-# 4. Ton Nom (Signature)
+# 4. Ta Signature officielle
 st.divider()
 st.markdown("""
     <div style="text-align: center;">
         <p style="font-size: 18px; font-weight: bold; color: #555;">🚀 Application développée par</p>
-        <p style="font-size: 24px; font-weight: bold; color: #000;">HEMERY DALLAH MAGANGA YABRE</p>
-        <p style="font-style: italic; color: #888;">Étudiant en Informatique -</p>
+        <p style="font-size: 24px; font-weight: bold; color: #000;">HEMERY DALLAH</p>
+        <p style="font-style: italic; color: #888;">Étudiant en Informatique </p>
     </div>
     """, unsafe_allow_html=True)
