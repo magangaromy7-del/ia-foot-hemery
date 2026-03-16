@@ -38,17 +38,25 @@ st.divider()
 st.subheader("🔥 Le Coupon Safe de demain")
 st.info("Selon l'IA : **Sporting CP** + **Fenerbahce** + **Barcelone**. Côte estimée : 2.10")
 
-# --- PIED DE PAGE PERSONNALISÉ ---
-st.divider()
-st.markdown(
-    """
+# Affichage du tableau verrouillé (ne bouge plus)
+    st.dataframe(
+        df, 
+        column_config={
+            "Logo": st.column_config.ImageColumn(" ", width="small"),
+            "Match": st.column_config.TextColumn("Match", width="large"), # On donne plus de place aux noms
+            "1_pct": st.column_config.ProgressColumn("1 (%)", format="%d%%", min_value=0, max_value=100, color="blue", width="medium"),
+            "X_pct": st.column_config.ProgressColumn("X (%)", format="%d%%", min_value=0, max_value=100, color="gray", width="medium"),
+            "2_pct": st.column_config.ProgressColumn("2 (%)", format="%d%%", min_value=0, max_value=100, color="red", width="medium"),
+            "Score_Prédit": st.column_config.TextColumn("Score", width="small"),
+            "Total_Buts": st.column_config.TextColumn("Buts", width="small"),
+            "Confiance": st.column_config.TextColumn("Fiabilité", width="small")
+        },
+        hide_index=True,
+        use_container_width=True # Le tableau prend toute la largeur mais les colonnes restent fixes
     <div style="text-align: center; padding: 20px;">
         <p style="font-size: 18px; font-weight: bold; color: #555;">
             🚀 Application développée par <br>
-            <span style="font-size: 22px; color: #000;">HEMERY DALLAH MAGANGA YABRE</span>
+            <span style="font-size: 22px; color: #000;">HEMERY DALLAH MAGANGA YABRR</span>
         </p>
-        <p style="font-style: italic; color: #888;">Étudiant en Informatique</p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+        <p style="font-style: italic; color: #888;">Étudiant en Informatique
+    )
