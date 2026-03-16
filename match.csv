@@ -1,5 +1,9 @@
-Match,1_pct,X_pct,2_pct,Score_Prédit,Météo,Confiance
-Real Madrid vs Man City,40,25,35,2-1,☀️ 18°C,⭐⭐⭐⭐
-Arsenal vs PSG,45,30,25,2-1,☁️ 12°C,⭐⭐⭐
-Leverkusen vs Milan,38,25,37,1-1,🌧️ 8°C,⭐⭐
-Barcelone vs Young Boys,82,12,6,4-0,☀️ 18°C,⭐⭐⭐⭐⭐
+Match,1_pct,X_pct,2_pct,Score_Prédit,Total_Buts,Confiance
+Sporting CP vs Bodo/Glimt,65,20,15,3-1,+2.5,⭐⭐⭐⭐
+Arsenal FC vs B. Leverkusen,48,27,25,2-1,+2.5,⭐⭐⭐
+Chelsea FC vs Paris SG,38,22,40,1-2,+2.5,⭐⭐
+Man. City vs Real Madrid,45,25,30,2-1,+1.5,⭐⭐⭐⭐
+Fenerbahce vs Gaziantep,72,18,10,2-0,+1.5,⭐⭐⭐⭐⭐
+Palerme FC vs Juve Stabia,55,30,15,1-0,-2.5,⭐⭐⭐
+Watford FC vs Wrexham AFC,42,28,30,2-1,+2.5,⭐⭐
+Peterboro vs Rotherham,50,25,25,3-1,+3.5,⭐⭐⭐⭐
