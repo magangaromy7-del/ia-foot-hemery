@@ -38,6 +38,17 @@ st.divider()
 st.subheader("🔥 Le Coupon Safe de demain")
 st.info("Selon l'IA : **Sporting CP** + **Fenerbahce** + **Barcelone**. Côte estimée : 2.10")
 
-# Pied de page
-st.sidebar.markdown("### À propos")
-st.sidebar.write("Développé par **HEMERY DALLAH MAGANGA YABRE**")
+# --- PIED DE PAGE PERSONNALISÉ ---
+st.divider()
+st.markdown(
+    """
+    <div style="text-align: center; padding: 20px;">
+        <p style="font-size: 18px; font-weight: bold; color: #555;">
+            🚀 Application développée par <br>
+            <span style="font-size: 22px; color: #000;">HEMERY DALLAH MAGANGA YABRE</span>
+        </p>
+        <p style="font-style: italic; color: #888;">Étudiant en Informatique - Université Aube Nouvelle</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
