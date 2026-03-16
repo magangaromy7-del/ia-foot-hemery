@@ -47,7 +47,7 @@ st.markdown(
             🚀 Application développée par <br>
             <span style="font-size: 22px; color: #000;">HEMERY DALLAH MAGANGA YABRE</span>
         </p>
-        <p style="font-style: italic; color: #888;">Étudiant en Informatique - Université Aube Nouvelle</p>
+        <p style="font-style: italic; color: #888;">Étudiant en Informatique</p>
     </div>
     """,
     unsafe_allow_html=True
