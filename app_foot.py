@@ -53,10 +53,4 @@ st.info("Selon l'IA : **Sporting CP** + **Fenerbahce** + **Barcelone**. Côte es
         },
         hide_index=True,
         use_container_width=True # Le tableau prend toute la largeur mais les colonnes restent fixes
-    <div style="text-align: center; padding: 20px;">
-        <p style="font-size: 18px; font-weight: bold; color: #555;">
-            🚀 Application développée par <br>
-            <span style="font-size: 22px; color: #000;">HEMERY DALLAH MAGANGA YABRR</span>
-        </p>
-        <p style="font-style: italic; color: #888;">Étudiant en Informatique
     )
