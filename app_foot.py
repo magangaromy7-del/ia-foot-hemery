@@ -48,7 +48,7 @@ st.divider()
 st.markdown("""
     <div style="text-align: center;">
         <p style="font-size: 18px; font-weight: bold; color: #555;">🚀 Application développée par</p>
-        <p style="font-size: 24px; font-weight: bold; color: #000;">HEMERY DALLAH MAGANGA YABRR</p>
+        <p style="font-size: 24px; font-weight: bold; color: #000;">HEMERY DALLAH MAGANGA YABRE</p>
         <p style="font-style: italic; color: #888;">Étudiant en Informatique -</p>
     </div>
     """, unsafe_allow_html=True)
