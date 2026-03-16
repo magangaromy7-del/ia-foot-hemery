@@ -1,9 +1,14 @@
-Match,1_pct,X_pct,2_pct,Score_Prédit,Total_Buts,Confiance
-Sporting CP vs Bodo/Glimt,65,20,15,3-1,+2.5,⭐⭐⭐⭐
-Arsenal FC vs B. Leverkusen,48,27,25,2-1,+2.5,⭐⭐⭐
-Chelsea FC vs Paris SG,38,22,40,1-2,+2.5,⭐⭐
-Man. City vs Real Madrid,45,25,30,2-1,+1.5,⭐⭐⭐⭐
-Fenerbahce vs Gaziantep,72,18,10,2-0,+1.5,⭐⭐⭐⭐⭐
-Palerme FC vs Juve Stabia,55,30,15,1-0,-2.5,⭐⭐⭐
-Watford FC vs Wrexham AFC,42,28,30,2-1,+2.5,⭐⭐
-Peterboro vs Rotherham,50,25,25,3-1,+3.5,⭐⭐⭐⭐
+Logo,Match,1_pct,X_pct,2_pct,Score_Prédit,Total_Buts,Confiance
+https://api.sofascore.app/api/v1/team/1568/image,Sporting CP vs Bodo/Glimt,70,20,10,3-0,+2.5,⭐⭐⭐⭐⭐
+https://api.sofascore.app/api/v1/team/42/image,Arsenal FC vs Leverkusen,52,28,20,2-1,+2.5,⭐⭐⭐⭐
+https://api.sofascore.app/api/v1/team/38/image,Chelsea FC vs Paris SG,35,25,40,1-2,+2.5,⭐⭐⭐
+https://api.sofascore.app/api/v1/team/17/image,Man. City vs Real Madrid,48,22,30,2-1,+1.5,⭐⭐⭐⭐
+https://api.sofascore.app/api/v1/team/2356/image,Fenerbahce vs Gaziantep,75,15,10,2-0,+1.5,⭐⭐⭐⭐⭐
+https://api.sofascore.app/api/v1/team/2704/image,Palerme FC vs Juve Stabia,58,27,15,1-0,-2.5,⭐⭐⭐
+https://api.sofascore.app/api/v1/team/24/image,Watford FC vs Wrexham AFC,45,30,25,2-1,+2.5,⭐⭐
+https://api.sofascore.app/api/v1/team/61/image,Peterboro vs Rotherham,50,22,28,3-1,+3.5,⭐⭐⭐⭐
+https://api.sofascore.app/api/v1/team/44/image,Bolton vs Stockport,55,25,20,2-0,+1.5,⭐⭐⭐⭐
+https://api.sofascore.app/api/v1/team/31/image,Everton vs Newcastle,30,30,40,1-2,+2.5,⭐⭐⭐
+https://api.sofascore.app/api/v1/team/2620/image,Cremonese vs Modena,52,30,18,2-1,+2.5,⭐⭐⭐
+https://api.sofascore.app/api/v1/team/14/image,Preston vs Hull City,40,35,25,1-1,-2.5,⭐⭐
+https://api.sofascore.app/api/v1/team/2817/image,FC Barcelone vs Newcastle,55,25,20,3-1,+2.5,⭐⭐⭐⭐
