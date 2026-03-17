@@ -4,9 +4,10 @@ import random
 from datetime import datetime, timedelta
 
 # ==========================================
-# TA CONFIGURATION - "X-Auth-Token"
+# CONFIGURATION MASTER PREDICTS
+# DÉVELOPPÉ PAR : HEMERY DALLAH
 # ==========================================
-API_TOKEN = " 9ca5bcac82e444c5810061edf4aff13f"
+API_TOKEN = "9ca5bcac82e444c5810061edf4aff13f"
 # ==========================================
 
 date_debut = datetime.now().strftime('%Y-%m-%d')
@@ -19,17 +20,14 @@ def calculer_prono_intelligent(h_rank, a_rank):
     p1 = max(20, min(75, base_win + random.randint(-5, 5)))
     px = random.randint(20, 30)
     p2 = 100 - p1 - px
-    
     if p1 > 60: score, conf = "2-0", "⭐⭐⭐⭐"
     elif p1 > 45: score, conf = "2-1", "⭐⭐⭐⭐"
     elif p2 > 45: score, conf = "0-1", "⭐⭐⭐"
     else: score, conf = "1-1", "⭐⭐⭐"
-    
     buts = "+2.5" if (p1 + p2) > 70 else "-2.5"
     return p1, px, p2, score, buts, conf
 
 def update_data():
-    print("📡 Récupération des scores et pronostics...")
     try:
         url_matches = f"https://api.football-data.org/v4/matches?dateFrom={date_debut}&dateTo={date_fin}"
         response = requests.get(url_matches, headers=HEADERS)
@@ -37,12 +35,10 @@ def update_data():
         matchs_extraits = []
 
         for m in data.get('matches', []):
-            # Récupération du score réel
-            etat = m['status'] # 'IN_PLAY', 'FINISHED', 'TIMED', etc.
+            etat = m['status']
             s_home = m['score']['fullTime']['home'] if m['score']['fullTime']['home'] is not None else 0
             s_away = m['score']['fullTime']['away'] if m['score']['fullTime']['away'] is not None else 0
             
-            # Calcul du prono
             p1, px, p2, prono_score, buts, conf = calculer_prono_intelligent(random.randint(1,20), random.randint(1,20))
             
             matchs_extraits.append({
@@ -59,9 +55,8 @@ def update_data():
             })
 
         if matchs_extraits:
-            df = pd.DataFrame(matchs_extraits)
-            df.to_csv("match.csv", index=False)
-            print(f"✅ Mise à jour réussie : {len(matchs_extraits)} matchs.")
+            pd.DataFrame(matchs_extraits).to_csv("match.csv", index=False)
+            print("✅ Mise à jour effectuée avec succès !")
             
     except Exception as e:
         print(f"❌ Erreur : {e}")
