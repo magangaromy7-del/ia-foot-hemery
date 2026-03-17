@@ -1,11 +1,11 @@
 import streamlit as st
-import pd as pd
+import pandas as pd
 from datetime import datetime, timedelta
 
 # 1. Configuration de la page
 st.set_page_config(page_title="Master Predicts", layout="centered", page_icon="⚽")
 
-# --- STYLE CSS COMPLET (Design Sombre, Live et Signature) ---
+# --- STYLE CSS ---
 st.markdown("""
     <style>
     .match-card {
@@ -50,7 +50,6 @@ try:
     
     st.title("⚽ Master Predicts")
 
-    # Système d'onglets par date
     noms_onglets = []
     for d in dates_disponibles:
         if d == aujourdhui: noms_onglets.append("DIRECT / AUJOURD'HUI")
@@ -69,7 +68,6 @@ try:
                     score_display = str(row['Score_Live']) if est_live else "vs"
                     badge_live = '<span class="live-badge">● LIVE</span>' if est_live else f'<span class="time">{row["Ligue"].upper()}</span>'
 
-                    # Rendu de la carte en HTML propre
                     st.markdown(f"""
                         <div class="match-card">
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
@@ -96,7 +94,7 @@ try:
                         </div>
                         """, unsafe_allow_html=True)
     else:
-        st.info("Lance le 'Run workflow' pour afficher les matchs.")
+        st.info("Lance le 'Run workflow' sur GitHub pour afficher les matchs.")
 
 except Exception as e:
     st.info("En attente des données... Relance le workflow sur GitHub.")
