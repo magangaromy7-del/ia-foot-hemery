@@ -3,7 +3,7 @@ name: Mise a jour Master Predicts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 6 * * *'
 
 jobs:
   build:
@@ -27,16 +27,16 @@ jobs:
         run: |
           git config --global user.name 'MasterPredicts-Bot'
           git config --global user.email 'bot@masterpredicts.com'
-          git pull --rebase origin main
           git add match.csv
           git commit -m "Mise à jour auto des matchs" || exit 0
+          git pull --rebase origin main
           git push origin main
-      
+
       - name: Notifier sur Telegram
         uses: appleboy/telegram-action@master
         with:
-          to: ${{secrets.TELEGRAM_TO}}
-          token: ${{secrets.TELEGRAM_TOKEN}}
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
             🚀 Mise à jour Master Predicts réussie !
             Les nouvelles analyses de foot sont prêtes dans le dépôt.
