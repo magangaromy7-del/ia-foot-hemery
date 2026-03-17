@@ -4,8 +4,7 @@ import random
 from datetime import datetime, timedelta
 
 # ==========================================
-# CONFIGURATION MASTER PREDICTS
-# DÉVELOPPÉ PAR : HEMERY DALLAH
+# CONFIGURATION - "X-Auth-Token"
 # ==========================================
 API_TOKEN = "9ca5bcac82e444c5810061edf4aff13f"
 # ==========================================
