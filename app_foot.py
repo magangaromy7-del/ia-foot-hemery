@@ -1,11 +1,11 @@
 import streamlit as st
-import pandas as pd
+import pd as pd
 from datetime import datetime, timedelta
 
-# 1. Configuration
+# 1. Configuration de la page
 st.set_page_config(page_title="Master Predicts", layout="centered", page_icon="⚽")
 
-# --- STYLE CSS (Cartes, Live et Signature) ---
+# --- STYLE CSS COMPLET (Design Sombre, Live et Signature) ---
 st.markdown("""
     <style>
     .match-card {
@@ -30,7 +30,6 @@ st.markdown("""
     .prono-badge { background-color: #2e2e2e; padding: 2px 6px; border-radius: 4px; font-size: 10px; color: #ffd700; border: 1px solid #444; }
     .goals-badge { background-color: #004d40; padding: 2px 6px; border-radius: 4px; font-size: 10px; color: #00e676; border: 1px solid #00796b; }
     
-    /* STYLE SIGNATURE HEMERY DALLAH */
     .footer-signature {
         text-align: center;
         margin-top: 40px;
@@ -38,7 +37,7 @@ st.markdown("""
         border-top: 1px solid #333;
         padding-top: 20px;
     }
-    .footer-text { color: #666; font-size: 12px; letter-spacing: 1px; margin-bottom: 5px; }
+    .footer-text { color: #666; font-size: 10px; letter-spacing: 1px; margin-bottom: 5px; }
     .footer-name { color: #ffffff; font-weight: bold; font-size: 16px; letter-spacing: 2px; }
     </style>
     """, unsafe_allow_html=True)
@@ -51,55 +50,58 @@ try:
     
     st.title("⚽ Master Predicts")
 
-    # Onglets de navigation par date
+    # Système d'onglets par date
     noms_onglets = []
     for d in dates_disponibles:
         if d == aujourdhui: noms_onglets.append("DIRECT / AUJOURD'HUI")
         else: noms_onglets.append(datetime.strptime(d, '%Y-%m-%d').strftime('%d %b.').upper())
 
-    tabs = st.tabs(noms_onglets)
+    if noms_onglets:
+        tabs = st.tabs(noms_onglets)
+        for i, tab in enumerate(tabs):
+            with tab:
+                date_selectionnee = dates_disponibles[i]
+                df_filtre = df[df['Date'] == date_selectionnee]
 
-    for i, tab in enumerate(tabs):
-        with tab:
-            date_selectionnee = dates_disponibles[i]
-            df_filtre = df[df['Date'] == date_selectionnee]
+                for index, row in df_filtre.iterrows():
+                    teams = row['Match'].split(" vs ")
+                    est_live = row.get('Etat') == "LIVE"
+                    score_display = str(row['Score_Live']) if est_live else "vs"
+                    badge_live = '<span class="live-badge">● LIVE</span>' if est_live else f'<span class="time">{row["Ligue"].upper()}</span>'
 
-            for index, row in df_filtre.iterrows():
-                teams = row['Match'].split(" vs ")
-                est_live = row.get('Etat') == "LIVE"
-                score_display = row['Score_Live'] if est_live else "vs"
-                badge_live = '<span class="live-badge">● LIVE</span>' if est_live else f'<span class="time">{row["Ligue"].upper()}</span>'
-
-                st.markdown(f"""
-                    <div class="match-card">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                            <div>{badge_live}</div>
-                            <div class="badge-container">
-                                <div class="prono-badge">🎯 Prono: {row['Score_Prédit']}</div>
-                                <div class="goals-badge">⚽ Buts: {row['Total_Buts']}</div>
+                    # Rendu de la carte en HTML propre
+                    st.markdown(f"""
+                        <div class="match-card">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                <div>{badge_live}</div>
+                                <div class="badge-container">
+                                    <div class="prono-badge">🎯 Prono: {row['Score_Prédit']}</div>
+                                    <div class="goals-badge">⚽ Buts: {row['Total_Buts']}</div>
+                                </div>
+                            </div>
+                            <div class="team-row">
+                                <img src="{row['Logo']}" class="team-logo">
+                                <div class="team-name">{teams[0]}</div>
+                                {f'<div class="live-score">{score_display.split("-")[0]}</div>' if est_live else ''}
+                            </div>
+                            <div class="team-row">
+                                <img src="https://cdn-icons-png.flaticon.com/512/53/53254.png" class="team-logo" style="filter: invert(1); opacity:0.2;">
+                                <div class="team-name">{teams[1]}</div>
+                                {f'<div class="live-score">{score_display.split("-")[1]}</div>' if est_live else ''}
+                            </div>
+                            <div style="margin-top: 8px; font-size: 10px; color: #666; border-top: 1px solid #333; padding-top: 8px; display: flex; justify-content: space-between;">
+                                <span>PROBA: 1:{row['1_pct']}% | X:{row['X_pct']}% | 2:{row['2_pct']}%</span>
+                                <span style="color: #ffd700;">{row['Confiance']}</span>
                             </div>
                         </div>
-                        <div class="team-row">
-                            <img src="{row['Logo']}" class="team-logo">
-                            <div class="team-name">{teams[0]}</div>
-                            {f'<div class="live-score">{score_display.split("-")[0]}</div>' if est_live else ''}
-                        </div>
-                        <div class="team-row">
-                            <img src="https://cdn-icons-png.flaticon.com/512/53/53254.png" class="team-logo" style="filter: invert(1); opacity:0.2;">
-                            <div class="team-name">{teams[1]}</div>
-                            {f'<div class="live-score">{score_display.split("-")[1]}</div>' if est_live else ''}
-                        </div>
-                        <div style="margin-top: 8px; font-size: 10px; color: #666; border-top: 1px solid #333; padding-top: 8px; display: flex; justify-content: space-between;">
-                            <span>PROBA: 1:{row['1_pct']}% | X:{row['X_pct']}% | 2:{row['2_pct']}%</span>
-                            <span style="color: #ffd700;">{row['Confiance']}</span>
-                        </div>
-                    </div>
-                    """, unsafe_allow_html=True)
+                        """, unsafe_allow_html=True)
+    else:
+        st.info("Lance le 'Run workflow' pour afficher les matchs.")
 
-except Exception:
-    st.info("🔄 Actualisation des pronostics...")
+except Exception as e:
+    st.info("En attente des données... Relance le workflow sur GitHub.")
 
-# 3. SIGNATURE FINALE
+# 3. Signature finale
 st.markdown("""
     <div class="footer-signature">
         <p class="footer-text">APPLICATION DÉVELOPPÉE PAR</p>
