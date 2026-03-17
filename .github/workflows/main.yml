@@ -1,9 +1,9 @@
 name: Mise a jour Master Predicts
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *' # Le robot se réveille tous les jours à 6h du matin
-  workflow_dispatch: # Permet de le lancer à la main si besoin
+    - cron: '0 */6 * * *'
 
 jobs:
   build:
@@ -30,3 +30,13 @@ jobs:
           git add match.csv
           git commit -m "Mise à jour auto des matchs" || exit 0
           git push
+
+      - name: Notifier sur Telegram
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            🚀 Mise à jour Master Predicts réussie !
+            Les nouvelles analyses de foot sont prêtes dans le dépôt.
+            Lien : https://github.com/${{ github.repository }}
