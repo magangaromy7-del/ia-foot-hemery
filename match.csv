@@ -1,31 +1,27 @@
 Logo,Date,Ligue,Match,Score_Live,Etat,1_pct,X_pct,2_pct,Score_Prédit,Total_Buts,Confiance
-https://crests.football-data.org/9396.svg,2026-06-25,FIFA World Cup,South Africa vs South Korea,1-0,FINI,58,5,41,3-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/798.svg,2026-06-25,FIFA World Cup,Czechia vs Mexico,0-3,FINI,60,5,40,1-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/curacao.svg,2026-06-25,FIFA World Cup,Curaçao vs Ivory Coast,0-0,PRE,47,5,59,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/791.svg,2026-06-25,FIFA World Cup,Ecuador vs Germany,0-0,PRE,52,5,44,2-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/766.svg,2026-06-25,FIFA World Cup,Japan vs Sweden,0-0,PRE,40,5,56,1-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/tunisia.svg,2026-06-25,FIFA World Cup,Tunisia vs Netherlands,0-0,PRE,31,5,72,2-1,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/761.svg,2026-06-26,FIFA World Cup,Paraguay vs Australia,0-0,PRE,74,5,30,3-2,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/803.svg,2026-06-26,FIFA World Cup,Turkey vs United States,0-0,PRE,63,5,37,2-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/senegal.svg,2026-06-26,FIFA World Cup,Senegal vs Iraq,0-0,PRE,47,5,55,4-0,+2.5,⭐⭐⭐
-https://crests.football-data.org/813.svg,2026-06-26,FIFA World Cup,Norway vs France,0-0,PRE,44,5,53,1-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/cape_verde.svg,2026-06-27,FIFA World Cup,Cape Verde Islands vs Saudi Arabia,0-0,PRE,70,5,27,2-1,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/758.svg,2026-06-27,FIFA World Cup,Uruguay vs Spain,0-0,PRE,57,5,43,2-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/825.svg,2026-06-27,FIFA World Cup,Egypt vs Iran,0-0,PRE,59,5,39,2-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/783.svg,2026-06-27,FIFA World Cup,New Zealand vs Belgium,0-0,PRE,42,5,56,0-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/799.svg,2026-06-27,FIFA World Cup,Croatia vs Ghana,0-0,PRE,42,5,60,0-2,-2.5,⭐⭐⭐
-https://crests.football-data.org/panama.svg,2026-06-27,FIFA World Cup,Panama vs England,0-0,PRE,35,5,64,2-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/congo_dr.svg,2026-06-27,FIFA World Cup,Congo DR vs Uzbekistan,0-0,PRE,55,5,47,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/818.svg,2026-06-27,FIFA World Cup,Colombia vs Portugal,0-0,PRE,43,5,58,0-3,+2.5,⭐⭐⭐
-https://crests.football-data.org/algeria.svg,2026-06-28,FIFA World Cup,Algeria vs Austria,0-0,PRE,57,5,46,4-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/8049.png,2026-06-28,FIFA World Cup,Jordan vs Argentina,0-0,PRE,54,5,44,3-1,+2.5,⭐⭐⭐
-,2026-06-28,FIFA World Cup,None vs None,0-0,PRE,70,5,36,2-0,-2.5,⭐⭐⭐⭐⭐
-,2026-06-29,FIFA World Cup,None vs None,0-0,PRE,64,5,40,2-2,+2.5,⭐⭐⭐
-,2026-06-29,FIFA World Cup,None vs None,0-0,PRE,63,5,33,3-0,+2.5,⭐⭐⭐
-,2026-06-30,FIFA World Cup,None vs None,0-0,PRE,67,5,29,1-1,-2.5,⭐⭐⭐⭐⭐
-,2026-06-30,FIFA World Cup,None vs None,0-0,PRE,54,5,47,2-1,+2.5,⭐⭐⭐
-,2026-06-30,FIFA World Cup,None vs None,0-0,PRE,38,10,52,2-1,+2.5,⭐⭐⭐
-,2026-07-01,FIFA World Cup,None vs None,0-0,PRE,63,5,40,2-1,+2.5,⭐⭐⭐
-,2026-07-01,FIFA World Cup,None vs None,0-0,PRE,67,5,35,3-2,+2.5,⭐⭐⭐⭐⭐
-,2026-07-01,FIFA World Cup,None vs None,0-0,PRE,64,5,41,0-0,-2.5,⭐⭐⭐
-,2026-07-02,FIFA World Cup,None vs None,0-0,PRE,47,5,54,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/803.svg,2026-06-26,FIFA World Cup,Turkey vs United States,3-2,FINI,55,5,50,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/761.svg,2026-06-26,FIFA World Cup,Paraguay vs Australia,0-0,FINI,39,5,61,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/813.svg,2026-06-26,FIFA World Cup,Norway vs France,0-0,PRE,48,6,46,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/senegal.svg,2026-06-26,FIFA World Cup,Senegal vs Iraq,0-0,PRE,56,8,36,5-3,+2.5,⭐⭐⭐
+https://crests.football-data.org/758.svg,2026-06-27,FIFA World Cup,Uruguay vs Spain,0-0,PRE,39,5,58,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/cape_verde.svg,2026-06-27,FIFA World Cup,Cape Verde Islands vs Saudi Arabia,0-0,PRE,57,5,39,2-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/783.svg,2026-06-27,FIFA World Cup,New Zealand vs Belgium,0-0,PRE,53,5,44,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/825.svg,2026-06-27,FIFA World Cup,Egypt vs Iran,0-0,PRE,67,5,33,0-1,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/panama.svg,2026-06-27,FIFA World Cup,Panama vs England,0-0,PRE,52,5,53,2-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/799.svg,2026-06-27,FIFA World Cup,Croatia vs Ghana,0-0,PRE,60,5,47,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/818.svg,2026-06-27,FIFA World Cup,Colombia vs Portugal,0-0,PRE,79,5,28,5-1,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/congo_dr.svg,2026-06-27,FIFA World Cup,Congo DR vs Uzbekistan,0-0,PRE,55,5,40,0-2,-2.5,⭐⭐⭐
+https://crests.football-data.org/8049.png,2026-06-28,FIFA World Cup,Jordan vs Argentina,0-0,PRE,39,5,59,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/algeria.svg,2026-06-28,FIFA World Cup,Algeria vs Austria,0-0,PRE,59,5,46,3-0,+2.5,⭐⭐⭐
+https://crests.football-data.org/9396.svg,2026-06-28,FIFA World Cup,South Africa vs Canada,0-0,PRE,49,5,57,0-2,-2.5,⭐⭐⭐
+https://crests.football-data.org/764.svg,2026-06-29,FIFA World Cup,Brazil vs Japan,0-0,PRE,77,5,25,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/759.svg,2026-06-29,FIFA World Cup,Germany vs None,0-0,PRE,54,5,47,2-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/8601.svg,2026-06-30,FIFA World Cup,Netherlands vs Morocco,0-0,PRE,58,7,35,0-1,-2.5,⭐⭐⭐
+,2026-06-30,FIFA World Cup,None vs None,0-0,PRE,66,5,31,1-0,-2.5,⭐⭐⭐⭐⭐
+,2026-06-30,FIFA World Cup,None vs None,0-0,PRE,61,5,38,4-1,+2.5,⭐⭐⭐
+https://crests.football-data.org/769.svg,2026-07-01,FIFA World Cup,Mexico vs None,0-0,PRE,79,5,20,3-1,+2.5,⭐⭐⭐⭐⭐
+,2026-07-01,FIFA World Cup,None vs None,0-0,PRE,58,7,35,1-1,-2.5,⭐⭐⭐
+,2026-07-01,FIFA World Cup,None vs None,0-0,PRE,49,10,41,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/usa.svg,2026-07-02,FIFA World Cup,United States vs Bosnia-Herzegovina,0-0,PRE,49,5,55,2-0,-2.5,⭐⭐⭐
+,2026-07-02,FIFA World Cup,None vs None,0-0,PRE,49,7,44,2-0,-2.5,⭐⭐⭐
+,2026-07-02,FIFA World Cup,None vs None,0-0,PRE,58,5,40,1-2,+2.5,⭐⭐⭐
