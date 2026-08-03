@@ -1,14 +1,28 @@
 Logo,Date,Ligue,Match,Score_Live,Etat,1_pct,X_pct,2_pct,Score_Prédit,Total_Buts,Confiance
-https://crests.football-data.org/1909.png,2026-08-07,Eredivisie,SC Cambuur-Leeuwarden vs SBV Excelsior,0-0,PRE,38,5,63,2-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/582.png,2026-08-07,Primeira Liga,GD Estoril Praia vs FC Famalicão,0-0,PRE,40,5,60,1-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/1915.png,2026-08-08,Eredivisie,NEC vs Telstar 1963,0-0,PRE,46,5,51,3-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/5575.png,2026-08-08,Primeira Liga,CS Marítimo vs Casa Pia AC,0-0,PRE,55,5,42,1-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/718.png,2026-08-08,Eredivisie,Go Ahead Eagles vs Willem II Tilburg,0-0,PRE,58,5,45,1-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/5543.png,2026-08-08,Primeira Liga,Vitória SC vs FC Arouca,0-0,PRE,40,5,57,0-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/674.png,2026-08-08,Eredivisie,PSV vs Fortuna Sittard,0-0,PRE,38,5,61,1-3,+2.5,⭐⭐⭐
-https://crests.football-data.org/1767.png,2026-08-08,Campeonato Brasileiro Série A,Grêmio FBPA vs São Paulo FC,0-0,PRE,44,9,47,1-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/682.png,2026-08-08,Eredivisie,AZ vs ADO Den Haag,0-0,PRE,47,5,53,2-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/9136.png,2026-08-08,Primeira Liga,CF Estrela da Amadora vs Sporting Clube de Portugal,0-0,PRE,57,8,35,6-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/4287.png,2026-08-08,Campeonato Brasileiro Série A,Clube do Remo vs CA Mineiro,0-0,PRE,62,5,37,4-3,+2.5,⭐⭐⭐
-https://crests.football-data.org/4241.png,2026-08-08,Campeonato Brasileiro Série A,Coritiba FBC vs Chapecoense AF,0-0,PRE,64,5,36,2-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/1770.png,2026-08-09,Campeonato Brasileiro Série A,Botafogo FR vs Fluminense FC,0-0,PRE,29,7,64,2-2,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/1909.png,2026-08-07,Eredivisie,SC Cambuur-Leeuwarden vs SBV Excelsior,0-0,PRE,63,5,38,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/582.png,2026-08-07,Primeira Liga,GD Estoril Praia vs FC Famalicão,0-0,PRE,67,5,32,1-1,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/1915.png,2026-08-08,Eredivisie,NEC vs Telstar 1963,0-0,PRE,54,5,46,1-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/5575.png,2026-08-08,Primeira Liga,CS Marítimo vs Casa Pia AC,0-0,PRE,63,5,32,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/718.png,2026-08-08,Eredivisie,Go Ahead Eagles vs Willem II Tilburg,0-0,PRE,42,5,59,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/5543.png,2026-08-08,Primeira Liga,Vitória SC vs FC Arouca,0-0,PRE,65,5,31,5-2,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/674.png,2026-08-08,Eredivisie,PSV vs Fortuna Sittard,0-0,PRE,68,8,24,1-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/1767.png,2026-08-08,Campeonato Brasileiro Série A,Grêmio FBPA vs São Paulo FC,0-0,PRE,59,5,39,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/682.png,2026-08-08,Eredivisie,AZ vs ADO Den Haag,0-0,PRE,68,7,25,1-1,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/9136.png,2026-08-08,Primeira Liga,CF Estrela da Amadora vs Sporting Clube de Portugal,0-0,PRE,62,5,35,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/4287.png,2026-08-08,Campeonato Brasileiro Série A,Clube do Remo vs CA Mineiro,0-0,PRE,57,5,43,2-3,+2.5,⭐⭐⭐
+https://crests.football-data.org/4241.png,2026-08-08,Campeonato Brasileiro Série A,Coritiba FBC vs Chapecoense AF,0-0,PRE,49,5,50,1-3,+2.5,⭐⭐⭐
+https://crests.football-data.org/1770.png,2026-08-09,Campeonato Brasileiro Série A,Botafogo FR vs Fluminense FC,0-0,PRE,37,5,59,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/6806.png,2026-08-09,Eredivisie,Sparta Rotterdam vs Feyenoord Rotterdam,0-0,PRE,47,5,49,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/684.png,2026-08-09,Eredivisie,PEC Zwolle vs AFC Ajax,0-0,PRE,71,5,31,2-1,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/677.png,2026-08-09,Eredivisie,FC Groningen vs FC Utrecht,0-0,PRE,37,6,57,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/1771.png,2026-08-09,Campeonato Brasileiro Série A,Cruzeiro EC vs Mirassol FC,0-0,PRE,46,5,54,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/673.png,2026-08-09,Eredivisie,SC Heerenveen vs FC Twente '65,0-0,PRE,72,5,27,2-1,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/503.png,2026-08-09,Primeira Liga,FC Porto vs FC Alverca,0-0,PRE,77,5,29,0-2,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/1777.png,2026-08-09,Campeonato Brasileiro Série A,EC Bahia vs CR Vasco da Gama,0-0,PRE,80,5,19,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/1769.png,2026-08-09,Campeonato Brasileiro Série A,SE Palmeiras vs SC Internacional,0-0,PRE,51,5,47,0-2,-2.5,⭐⭐⭐
+https://crests.football-data.org/1903.png,2026-08-09,Primeira Liga,Sport Lisboa e Benfica vs Académico de Viseu FC,0-0,PRE,67,5,34,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/5533.png,2026-08-09,Primeira Liga,Gil Vicente FC vs Rio Ave FC,0-0,PRE,62,6,32,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/583.png,2026-08-09,Primeira Liga,Moreirense FC vs Sporting Clube de Braga,0-0,PRE,31,5,66,1-2,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/4286.png,2026-08-09,Campeonato Brasileiro Série A,RB Bragantino vs SC Corinthians Paulista,0-0,PRE,47,5,55,3-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/6685.png,2026-08-09,Campeonato Brasileiro Série A,Santos FC vs CA Paranaense,0-0,PRE,39,5,61,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/1783.png,2026-08-09,Campeonato Brasileiro Série A,CR Flamengo vs EC Vitória,0-0,PRE,51,5,48,3-4,+2.5,⭐⭐⭐
