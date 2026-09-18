@@ -1,93 +1,90 @@
 Logo,Date,Ligue,Match,Score_Live,Etat,1_pct,X_pct,2_pct,Score_Prédit,Total_Buts,Confiance
-https://crests.football-data.org/1779.png,2026-09-17,Copa Libertadores,SC Corinthians Paulista vs Estudiantes de La Plata,0-0,PRE,59,5,39,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/90.png,2026-09-17,Primera Division,Real Betis Balompié vs Getafe CF,0-0,PRE,73,5,26,3-0,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/84.png,2026-09-17,Primera Division,Málaga CF vs Villarreal CF,0-0,PRE,55,5,49,3-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/1783.png,2026-09-18,Copa Libertadores,CR Flamengo vs CAR Independiente del Valle,0-0,PRE,60,5,39,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/677.png,2026-09-18,Eredivisie,FC Groningen vs PEC Zwolle,0-0,PRE,44,5,54,1-4,+2.5,⭐⭐⭐
-https://crests.football-data.org/5.png,2026-09-18,Bundesliga,FC Bayern München vs 1. FC Union Berlin,0-0,PRE,60,5,38,0-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/548.png,2026-09-18,Ligue 1,AS Monaco FC vs Racing Club de Lens,0-0,PRE,65,5,36,4-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/5911.png,2026-09-18,Serie A,AC Monza vs US Sassuolo Calcio,0-0,PRE,47,5,55,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/80.png,2026-09-18,Primera Division,RCD Espanyol de Barcelona vs Elche CF,0-0,PRE,63,5,42,2-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/402.png,2026-09-18,Premier League,Brentford FC vs Chelsea FC,0-0,PRE,48,5,54,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/387.png,2026-09-18,Championship,Bristol City FC vs Watford FC,0-0,PRE,74,5,24,4-0,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/715.png,2026-09-19,Championship,Cardiff City FC vs Charlton Athletic FC,0-0,PRE,47,5,48,0-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/70.png,2026-09-19,Championship,Stoke City FC vs Sheffield United FC,0-0,PRE,49,5,49,0-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/384.png,2026-09-19,Championship,Millwall FC vs West Ham United FC,0-0,PRE,46,5,53,0-2,-2.5,⭐⭐⭐
-https://crests.football-data.org/73.png,2026-09-19,Premier League,Tottenham Hotspur FC vs Aston Villa FC,0-0,PRE,45,5,52,1-3,+2.5,⭐⭐⭐
-https://crests.football-data.org/79.png,2026-09-19,Primera Division,CA Osasuna vs Rayo Vallecano de Madrid,0-0,PRE,52,8,40,3-0,+2.5,⭐⭐⭐
-https://crests.football-data.org/115.png,2026-09-19,Serie A,Udinese Calcio vs Cagliari Calcio,0-0,PRE,55,5,44,3-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/103.png,2026-09-19,Serie A,Bologna FC 1909 vs Torino FC,0-0,PRE,42,5,61,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/19.png,2026-09-19,Bundesliga,Eintracht Frankfurt vs SC Freiburg,0-0,PRE,29,5,66,0-0,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/18.png,2026-09-19,Bundesliga,Borussia Mönchengladbach vs 1. FSV Mainz 05,0-0,PRE,50,5,51,2-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/12.png,2026-09-19,Bundesliga,SV Werder Bremen vs FC Augsburg,0-0,PRE,50,5,48,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/7.png,2026-09-19,Bundesliga,Hamburger SV vs 1. FC Köln,0-0,PRE,50,5,51,5-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/62.png,2026-09-19,Premier League,Everton FC vs Ipswich Town FC,0-0,PRE,31,5,65,0-4,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/328.png,2026-09-19,Championship,Burnley FC vs Derby County FC,0-0,PRE,28,5,72,2-1,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/397.png,2026-09-19,Premier League,Brighton & Hove Albion FC vs Arsenal FC,0-0,PRE,41,5,59,0-3,+2.5,⭐⭐⭐
-https://crests.football-data.org/325.png,2026-09-19,Championship,Portsmouth FC vs Blackburn Rovers FC,0-0,PRE,60,5,43,4-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/404.png,2026-09-19,Championship,Wrexham AFC vs Southampton FC,0-0,PRE,58,5,48,2-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/67.png,2026-09-19,Premier League,Newcastle United FC vs Hull City AFC,0-0,PRE,75,5,25,1-1,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/1126.png,2026-09-19,Championship,Lincoln City FC vs Swansea City AFC,0-0,PRE,44,5,62,0-3,+2.5,⭐⭐⭐
-https://crests.football-data.org/69.png,2026-09-19,Championship,Queens Park Rangers FC vs Preston North End FC,0-0,PRE,55,5,43,0-2,-2.5,⭐⭐⭐
-https://crests.football-data.org/332.png,2026-09-19,Championship,Birmingham City FC vs Middlesbrough FC,0-0,PRE,72,5,32,4-0,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/77.png,2026-09-19,Primera Division,Athletic Club vs Deportivo Alavés,0-0,PRE,47,5,51,0-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/5533.png,2026-09-19,Primeira Liga,Gil Vicente FC vs CS Marítimo,0-0,PRE,60,9,31,2-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/680.png,2026-09-19,Eredivisie,ADO Den Haag vs SC Cambuur-Leeuwarden,0-0,PRE,80,5,24,2-1,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/5529.png,2026-09-19,Primeira Liga,CD Nacional vs FC Famalicão,0-0,PRE,75,5,23,5-1,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/1045.png,2026-09-19,Ligue 1,Paris FC vs RC Strasbourg Alsace,0-0,PRE,66,8,26,3-0,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/100.png,2026-09-19,Serie A,AS Roma vs FC Internazionale Milano,0-0,PRE,47,5,54,1-5,+2.5,⭐⭐⭐
-https://crests.football-data.org/558.png,2026-09-19,Primera Division,RC Celta de Vigo vs Real Racing Club de Santander,0-0,PRE,74,5,26,4-0,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/351.png,2026-09-19,Premier League,Nottingham Forest FC vs Coventry City FC,0-0,PRE,60,5,44,4-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/10.png,2026-09-19,Bundesliga,VfB Stuttgart vs Borussia Dortmund,0-0,PRE,33,5,68,1-2,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/6806.png,2026-09-19,Eredivisie,Sparta Rotterdam vs SC Heerenveen,0-0,PRE,39,5,61,3-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/7822.png,2026-09-19,Primeira Liga,FC Alverca vs Rio Ave FC,0-0,PRE,51,5,51,1-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/678.png,2026-09-19,Eredivisie,AFC Ajax vs SBV Excelsior,0-0,PRE,59,5,40,4-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/532.png,2026-09-19,Ligue 1,Angers SCO vs ES Troyes AC,0-0,PRE,66,7,27,1-2,+2.5,⭐⭐⭐⭐⭐
-https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg,2026-09-19,Ligue 1,Le Mans FC vs FC Lorient,0-0,PRE,35,10,55,0-2,-2.5,⭐⭐⭐
-https://crests.football-data.org/523.png,2026-09-19,Ligue 1,Olympique Lyonnais vs Stade Rennais FC 1901,0-0,PRE,77,5,25,0-0,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/511.png,2026-09-19,Ligue 1,Toulouse FC vs Le Havre AC,0-0,PRE,51,9,40,1-3,+2.5,⭐⭐⭐
-https://crests.football-data.org/454.png,2026-09-19,Serie A,Venezia FC vs SS Lazio,0-0,PRE,56,7,37,3-1,+2.5,⭐⭐⭐
-https://crests.football-data.org/559.png,2026-09-19,Primera Division,Sevilla FC vs FC Barcelona,0-0,PRE,71,5,29,3-0,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/672.png,2026-09-19,Eredivisie,Willem II Tilburg vs Fortuna Sittard,0-0,PRE,35,5,66,2-3,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/1766.png,2026-09-19,Campeonato Brasileiro Série A,CA Mineiro vs Chapecoense AF,0-0,PRE,38,5,57,0-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/498.png,2026-09-19,Primeira Liga,Sporting Clube de Portugal vs FC Arouca,0-0,PRE,37,5,58,0-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/4364.png,2026-09-19,Campeonato Brasileiro Série A,Mirassol FC vs Botafogo FR,0-0,PRE,71,7,22,1-0,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/4287.png,2026-09-19,Campeonato Brasileiro Série A,Clube do Remo vs Santos FC,0-0,PRE,50,5,55,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/1780.png,2026-09-19,Campeonato Brasileiro Série A,CR Vasco da Gama vs Coritiba FBC,0-0,PRE,69,5,32,0-1,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/1776.png,2026-09-20,Campeonato Brasileiro Série A,São Paulo FC vs SC Internacional,0-0,PRE,68,5,30,1-1,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/675.png,2026-09-20,Eredivisie,Feyenoord Rotterdam vs FC Utrecht,0-0,PRE,44,5,58,0-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/99.png,2026-09-20,Serie A,ACF Fiorentina vs SSC Napoli,0-0,PRE,78,5,26,3-0,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/76.png,2026-09-20,Championship,Wolverhampton Wanderers FC vs West Bromwich Albion FC,0-0,PRE,64,5,35,4-5,+2.5,⭐⭐⭐
-https://crests.football-data.org/82.png,2026-09-20,Primera Division,Getafe CF vs Málaga CF,0-0,PRE,56,7,37,0-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/68.png,2026-09-20,Championship,Norwich City FC vs Bolton Wanderers FC,0-0,PRE,74,5,23,2-0,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/666.png,2026-09-20,Eredivisie,FC Twente '65 vs PSV,0-0,PRE,41,8,51,0-2,-2.5,⭐⭐⭐
-https://crests.football-data.org/682.png,2026-09-20,Eredivisie,AZ vs Telstar 1963,0-0,PRE,53,5,48,1-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/65.png,2026-09-20,Premier League,Manchester City FC vs Sunderland AFC,0-0,PRE,59,5,40,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/bournemouth.png,2026-09-20,Premier League,AFC Bournemouth vs Liverpool FC,0-0,PRE,43,5,58,3-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/112.png,2026-09-20,Serie A,Parma Calcio 1913 vs Genoa CFC,0-0,PRE,52,5,53,3-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/341.png,2026-09-20,Premier League,Leeds United FC vs Crystal Palace FC,0-0,PRE,35,5,64,1-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/470.png,2026-09-20,Serie A,Frosinone Calcio vs Como 1907,0-0,PRE,41,5,56,1-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/519.png,2026-09-20,Ligue 1,AJ Auxerre vs Stade Brestois 29,0-0,PRE,54,9,37,0-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/3.png,2026-09-20,Bundesliga,Bayer 04 Leverkusen vs RB Leipzig,0-0,PRE,69,5,29,2-1,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/1767.png,2026-09-20,Campeonato Brasileiro Série A,Grêmio FBPA vs SE Palmeiras,0-0,PRE,45,5,54,1-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/78.png,2026-09-20,Primera Division,Club Atlético de Madrid vs Real Madrid CF,0-0,PRE,63,9,28,4-1,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/9136.png,2026-09-20,Primeira Liga,CF Estrela da Amadora vs Académico de Viseu FC,0-0,PRE,59,6,35,1-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/5543.png,2026-09-20,Primeira Liga,Vitória SC vs Moreirense FC,0-0,PRE,65,5,32,1-0,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/1915.png,2026-09-20,Eredivisie,NEC vs Go Ahead Eagles,0-0,PRE,50,5,47,2-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/522.png,2026-09-20,Ligue 1,OGC Nice vs Lille OSC,0-0,PRE,73,5,23,2-0,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/6.png,2026-09-20,Bundesliga,FC Schalke 04 vs SV 07 Elversberg,0-0,PRE,30,6,64,1-2,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/63.png,2026-09-20,Premier League,Fulham FC vs Manchester United FC,0-0,PRE,65,5,34,5-1,+2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/109.png,2026-09-20,Serie A,Juventus FC vs Atalanta BC,0-0,PRE,44,5,57,3-4,+2.5,⭐⭐⭐
-https://crests.football-data.org/94.png,2026-09-20,Primera Division,Villarreal CF vs Levante UD,0-0,PRE,59,5,38,2-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/560.png,2026-09-20,Primera Division,RC Deportivo La Coruña vs Real Betis Balompié,0-0,PRE,45,5,58,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/5530.png,2026-09-20,Primeira Liga,CD Santa Clara vs Sporting Clube de Braga,0-0,PRE,60,5,36,4-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/582.png,2026-09-20,Primeira Liga,GD Estoril Praia vs Casa Pia AC,0-0,PRE,70,5,32,0-1,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/29.png,2026-09-20,Bundesliga,SC Paderborn 07 vs TSG 1899 Hoffenheim,0-0,PRE,67,5,30,0-1,-2.5,⭐⭐⭐⭐⭐
-https://crests.football-data.org/98.png,2026-09-20,Serie A,AC Milan vs US Lecce,0-0,PRE,62,5,34,0-1,-2.5,⭐⭐⭐
-https://crests.football-data.org/516.png,2026-09-20,Ligue 1,Olympique de Marseille vs Paris Saint-Germain FC,0-0,PRE,41,9,50,0-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/1779.png,2026-09-20,Campeonato Brasileiro Série A,SC Corinthians Paulista vs Fluminense FC,0-0,PRE,48,5,48,2-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/1782.png,2026-09-20,Campeonato Brasileiro Série A,EC Vitória vs Cruzeiro EC,0-0,PRE,62,5,40,0-2,-2.5,⭐⭐⭐
-https://crests.football-data.org/95.png,2026-09-20,Primera Division,Valencia CF vs Real Sociedad de Fútbol,0-0,PRE,52,5,47,1-2,+2.5,⭐⭐⭐
-https://crests.football-data.org/503.png,2026-09-20,Primeira Liga,FC Porto vs Sport Lisboa e Benfica,0-0,PRE,38,5,57,1-0,-2.5,⭐⭐⭐
-https://crests.football-data.org/1783.png,2026-09-20,Campeonato Brasileiro Série A,CR Flamengo vs RB Bragantino,0-0,PRE,58,5,40,3-3,+2.5,⭐⭐⭐
-https://crests.football-data.org/1768.png,2026-09-20,Campeonato Brasileiro Série A,CA Paranaense vs EC Bahia,0-0,PRE,76,8,16,4-0,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/1783.png,2026-09-18,Copa Libertadores,CR Flamengo vs CAR Independiente del Valle,0-0,PRE,58,5,37,3-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/677.png,2026-09-18,Eredivisie,FC Groningen vs PEC Zwolle,0-0,PRE,47,7,46,1-4,+2.5,⭐⭐⭐
+https://crests.football-data.org/5.png,2026-09-18,Bundesliga,FC Bayern München vs 1. FC Union Berlin,0-0,PRE,72,5,27,4-0,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/548.png,2026-09-18,Ligue 1,AS Monaco FC vs Racing Club de Lens,0-0,PRE,71,5,30,0-2,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/5911.png,2026-09-18,Serie A,AC Monza vs US Sassuolo Calcio,0-0,PRE,64,5,36,0-2,-2.5,⭐⭐⭐
+https://crests.football-data.org/402.png,2026-09-18,Premier League,Brentford FC vs Chelsea FC,0-0,PRE,77,5,21,3-1,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/387.png,2026-09-18,Championship,Bristol City FC vs Watford FC,0-0,PRE,76,5,32,4-2,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/80.png,2026-09-18,Primera Division,RCD Espanyol de Barcelona vs Elche CF,0-0,PRE,71,6,23,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/70.png,2026-09-19,Championship,Stoke City FC vs Sheffield United FC,0-0,PRE,70,5,38,1-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/384.png,2026-09-19,Championship,Millwall FC vs West Ham United FC,0-0,PRE,58,5,37,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/73.png,2026-09-19,Premier League,Tottenham Hotspur FC vs Aston Villa FC,0-0,PRE,47,5,56,1-3,+2.5,⭐⭐⭐
+https://crests.football-data.org/715.png,2026-09-19,Championship,Cardiff City FC vs Charlton Athletic FC,0-0,PRE,51,8,41,2-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/79.png,2026-09-19,Primera Division,CA Osasuna vs Rayo Vallecano de Madrid,0-0,PRE,60,7,33,2-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/103.png,2026-09-19,Serie A,Bologna FC 1909 vs Torino FC,0-0,PRE,52,5,47,3-3,+2.5,⭐⭐⭐
+https://crests.football-data.org/115.png,2026-09-19,Serie A,Udinese Calcio vs Cagliari Calcio,0-0,PRE,52,5,45,3-1,+2.5,⭐⭐⭐
+https://crests.football-data.org/7.png,2026-09-19,Bundesliga,Hamburger SV vs 1. FC Köln,0-0,PRE,52,5,45,4-1,+2.5,⭐⭐⭐
+https://crests.football-data.org/12.png,2026-09-19,Bundesliga,SV Werder Bremen vs FC Augsburg,0-0,PRE,68,5,32,1-2,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/18.png,2026-09-19,Bundesliga,Borussia Mönchengladbach vs 1. FSV Mainz 05,0-0,PRE,50,5,57,3-0,+2.5,⭐⭐⭐
+https://crests.football-data.org/19.png,2026-09-19,Bundesliga,Eintracht Frankfurt vs SC Freiburg,0-0,PRE,45,5,51,0-4,+2.5,⭐⭐⭐
+https://crests.football-data.org/69.png,2026-09-19,Championship,Queens Park Rangers FC vs Preston North End FC,0-0,PRE,68,5,28,2-2,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/332.png,2026-09-19,Championship,Birmingham City FC vs Middlesbrough FC,0-0,PRE,80,5,23,1-1,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/67.png,2026-09-19,Premier League,Newcastle United FC vs Hull City AFC,0-0,PRE,52,5,52,6-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/1126.png,2026-09-19,Championship,Lincoln City FC vs Swansea City AFC,0-0,PRE,59,5,40,4-0,+2.5,⭐⭐⭐
+https://crests.football-data.org/62.png,2026-09-19,Premier League,Everton FC vs Ipswich Town FC,0-0,PRE,66,5,30,0-1,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/328.png,2026-09-19,Championship,Burnley FC vs Derby County FC,0-0,PRE,54,6,40,2-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/397.png,2026-09-19,Premier League,Brighton & Hove Albion FC vs Arsenal FC,0-0,PRE,46,5,53,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/325.png,2026-09-19,Championship,Portsmouth FC vs Blackburn Rovers FC,0-0,PRE,64,5,33,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/404.png,2026-09-19,Championship,Wrexham AFC vs Southampton FC,0-0,PRE,73,5,32,2-1,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/77.png,2026-09-19,Primera Division,Athletic Club vs Deportivo Alavés,0-0,PRE,55,5,48,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/5529.png,2026-09-19,Primeira Liga,CD Nacional vs FC Famalicão,0-0,PRE,65,5,34,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/5533.png,2026-09-19,Primeira Liga,Gil Vicente FC vs CS Marítimo,0-0,PRE,54,5,42,2-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/680.png,2026-09-19,Eredivisie,ADO Den Haag vs SC Cambuur-Leeuwarden,0-0,PRE,46,7,47,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/1045.png,2026-09-19,Ligue 1,Paris FC vs RC Strasbourg Alsace,0-0,PRE,68,5,29,3-0,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/100.png,2026-09-19,Serie A,AS Roma vs FC Internazionale Milano,0-0,PRE,64,5,31,1-2,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/351.png,2026-09-19,Premier League,Nottingham Forest FC vs Coventry City FC,0-0,PRE,61,5,42,4-1,+2.5,⭐⭐⭐
+https://crests.football-data.org/10.png,2026-09-19,Bundesliga,VfB Stuttgart vs Borussia Dortmund,0-0,PRE,40,5,60,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/558.png,2026-09-19,Primera Division,RC Celta de Vigo vs Real Racing Club de Santander,0-0,PRE,32,7,61,0-2,-2.5,⭐⭐⭐
+https://crests.football-data.org/6806.png,2026-09-19,Eredivisie,Sparta Rotterdam vs SC Heerenveen,0-0,PRE,60,5,36,4-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/7822.png,2026-09-19,Primeira Liga,FC Alverca vs Rio Ave FC,0-0,PRE,59,6,35,4-0,+2.5,⭐⭐⭐
+https://crests.football-data.org/678.png,2026-09-19,Eredivisie,AFC Ajax vs SBV Excelsior,0-0,PRE,61,5,34,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/454.png,2026-09-19,Serie A,Venezia FC vs SS Lazio,0-0,PRE,41,5,56,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/511.png,2026-09-19,Ligue 1,Toulouse FC vs Le Havre AC,0-0,PRE,66,5,35,2-2,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/532.png,2026-09-19,Ligue 1,Angers SCO vs ES Troyes AC,0-0,PRE,53,5,44,1-2,+2.5,⭐⭐⭐
+https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg,2026-09-19,Ligue 1,Le Mans FC vs FC Lorient,0-0,PRE,56,6,38,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/523.png,2026-09-19,Ligue 1,Olympique Lyonnais vs Stade Rennais FC 1901,0-0,PRE,53,5,42,2-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/1766.png,2026-09-19,Campeonato Brasileiro Série A,CA Mineiro vs Chapecoense AF,0-0,PRE,56,5,44,3-1,+2.5,⭐⭐⭐
+https://crests.football-data.org/672.png,2026-09-19,Eredivisie,Willem II Tilburg vs Fortuna Sittard,0-0,PRE,56,5,45,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/559.png,2026-09-19,Primera Division,Sevilla FC vs FC Barcelona,0-0,PRE,70,5,29,3-0,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/498.png,2026-09-19,Primeira Liga,Sporting Clube de Portugal vs FC Arouca,0-0,PRE,61,5,44,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/4364.png,2026-09-19,Campeonato Brasileiro Série A,Mirassol FC vs Botafogo FR,0-0,PRE,57,5,48,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/4287.png,2026-09-19,Campeonato Brasileiro Série A,Clube do Remo vs Santos FC,0-0,PRE,53,5,49,1-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/1780.png,2026-09-19,Campeonato Brasileiro Série A,CR Vasco da Gama vs Coritiba FBC,0-0,PRE,60,5,45,2-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/1776.png,2026-09-20,Campeonato Brasileiro Série A,São Paulo FC vs SC Internacional,0-0,PRE,47,5,51,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/675.png,2026-09-20,Eredivisie,Feyenoord Rotterdam vs FC Utrecht,0-0,PRE,72,5,26,0-2,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/99.png,2026-09-20,Serie A,ACF Fiorentina vs SSC Napoli,0-0,PRE,70,6,24,3-1,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/76.png,2026-09-20,Championship,Wolverhampton Wanderers FC vs West Bromwich Albion FC,0-0,PRE,63,5,40,3-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/82.png,2026-09-20,Primera Division,Getafe CF vs Málaga CF,0-0,PRE,75,5,25,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/666.png,2026-09-20,Eredivisie,FC Twente '65 vs PSV,0-0,PRE,36,5,65,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/682.png,2026-09-20,Eredivisie,AZ vs Telstar 1963,0-0,PRE,79,5,22,3-1,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/68.png,2026-09-20,Championship,Norwich City FC vs Bolton Wanderers FC,0-0,PRE,63,5,36,7-1,+2.5,⭐⭐⭐
+https://crests.football-data.org/519.png,2026-09-20,Ligue 1,AJ Auxerre vs Stade Brestois 29,0-0,PRE,42,5,59,0-4,+2.5,⭐⭐⭐
+https://crests.football-data.org/112.png,2026-09-20,Serie A,Parma Calcio 1913 vs Genoa CFC,0-0,PRE,56,5,44,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/341.png,2026-09-20,Premier League,Leeds United FC vs Crystal Palace FC,0-0,PRE,43,5,56,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/470.png,2026-09-20,Serie A,Frosinone Calcio vs Como 1907,0-0,PRE,57,5,46,2-3,+2.5,⭐⭐⭐
+https://crests.football-data.org/65.png,2026-09-20,Premier League,Manchester City FC vs Sunderland AFC,0-0,PRE,44,7,49,1-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/bournemouth.png,2026-09-20,Premier League,AFC Bournemouth vs Liverpool FC,0-0,PRE,48,6,46,0-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/3.png,2026-09-20,Bundesliga,Bayer 04 Leverkusen vs RB Leipzig,0-0,PRE,58,6,36,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/1767.png,2026-09-20,Campeonato Brasileiro Série A,Grêmio FBPA vs SE Palmeiras,0-0,PRE,60,5,39,2-0,-2.5,⭐⭐⭐
+https://crests.football-data.org/78.png,2026-09-20,Primera Division,Club Atlético de Madrid vs Real Madrid CF,0-0,PRE,60,5,38,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/5543.png,2026-09-20,Primeira Liga,Vitória SC vs Moreirense FC,0-0,PRE,54,5,47,1-3,+2.5,⭐⭐⭐
+https://crests.football-data.org/9136.png,2026-09-20,Primeira Liga,CF Estrela da Amadora vs Académico de Viseu FC,0-0,PRE,68,5,31,1-1,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/1915.png,2026-09-20,Eredivisie,NEC vs Go Ahead Eagles,0-0,PRE,53,8,39,3-1,+2.5,⭐⭐⭐
+https://crests.football-data.org/522.png,2026-09-20,Ligue 1,OGC Nice vs Lille OSC,0-0,PRE,74,5,23,0-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/63.png,2026-09-20,Premier League,Fulham FC vs Manchester United FC,0-0,PRE,77,5,18,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/6.png,2026-09-20,Bundesliga,FC Schalke 04 vs SV 07 Elversberg,0-0,PRE,68,5,32,2-1,+2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/109.png,2026-09-20,Serie A,Juventus FC vs Atalanta BC,0-0,PRE,46,9,45,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/560.png,2026-09-20,Primera Division,RC Deportivo La Coruña vs Real Betis Balompié,0-0,PRE,40,7,53,1-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/94.png,2026-09-20,Primera Division,Villarreal CF vs Levante UD,0-0,PRE,48,5,58,1-3,+2.5,⭐⭐⭐
+https://crests.football-data.org/582.png,2026-09-20,Primeira Liga,GD Estoril Praia vs Casa Pia AC,0-0,PRE,63,5,44,3-1,+2.5,⭐⭐⭐
+https://crests.football-data.org/5530.png,2026-09-20,Primeira Liga,CD Santa Clara vs Sporting Clube de Braga,0-0,PRE,67,5,30,2-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/29.png,2026-09-20,Bundesliga,SC Paderborn 07 vs TSG 1899 Hoffenheim,0-0,PRE,58,5,44,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/98.png,2026-09-20,Serie A,AC Milan vs US Lecce,0-0,PRE,76,6,18,1-0,-2.5,⭐⭐⭐⭐⭐
+https://crests.football-data.org/516.png,2026-09-20,Ligue 1,Olympique de Marseille vs Paris Saint-Germain FC,0-0,PRE,48,5,52,1-4,+2.5,⭐⭐⭐
+https://crests.football-data.org/95.png,2026-09-20,Primera Division,Valencia CF vs Real Sociedad de Fútbol,0-0,PRE,67,5,40,1-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/1782.png,2026-09-20,Campeonato Brasileiro Série A,EC Vitória vs Cruzeiro EC,0-0,PRE,57,5,38,0-2,-2.5,⭐⭐⭐
+https://crests.football-data.org/1779.png,2026-09-20,Campeonato Brasileiro Série A,SC Corinthians Paulista vs Fluminense FC,0-0,PRE,54,5,47,0-1,-2.5,⭐⭐⭐
+https://crests.football-data.org/503.png,2026-09-20,Primeira Liga,FC Porto vs Sport Lisboa e Benfica,0-0,PRE,47,10,43,2-1,+2.5,⭐⭐⭐
+https://crests.football-data.org/1783.png,2026-09-20,Campeonato Brasileiro Série A,CR Flamengo vs RB Bragantino,0-0,PRE,51,5,52,4-2,+2.5,⭐⭐⭐
+https://crests.football-data.org/1768.png,2026-09-20,Campeonato Brasileiro Série A,CA Paranaense vs EC Bahia,0-0,PRE,39,5,63,0-1,-2.5,⭐⭐⭐
